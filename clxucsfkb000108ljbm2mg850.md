@@ -3,7 +3,7 @@ title: "Merge Sort"
 datePublished: Tue Jun 25 2024 11:58:50 GMT+0000 (Coordinated Universal Time)
 cuid: clxucsfkb000108ljbm2mg850
 slug: merge-sort
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719316687511/0e3c02ea-e8c5-4bb6-a620-60575e7762ec.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719339531538/86d16007-5a02-4de5-8f5d-b799262e2984.png
 tags: python, dsa, merge-sort
 
 ---
@@ -69,3 +69,7 @@ def merge(left, right):
 
     return merged
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719339618741/0ec14a63-7939-45ed-b75b-c711bd556057.png align="center")
+
+**Time Complexity:** O(n\*logn)
