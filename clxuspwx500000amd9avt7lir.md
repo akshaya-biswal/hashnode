@@ -1,5 +1,5 @@
 ---
-title: "Quick Sort: A Beginner's Tutorial"
+title: "Quick Sort"
 datePublished: Tue Jun 25 2024 19:24:46 GMT+0000 (Coordinated Universal Time)
 cuid: clxuspwx500000amd9avt7lir
 slug: quick-sort
