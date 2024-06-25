@@ -1,5 +1,5 @@
 ---
-title: "Bubble Sort: A Clear and Simple Guide"
+title: "Bubble Sort"
 datePublished: Tue Jun 25 2024 04:33:38 GMT+0000 (Coordinated Universal Time)
 cuid: clxtwvwil000c09l6dliecvg8
 slug: bubble-sort
