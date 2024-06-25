@@ -3,6 +3,7 @@ title: "Bubble Sort: A Clear and Simple Guide"
 datePublished: Tue Jun 25 2024 04:33:38 GMT+0000 (Coordinated Universal Time)
 cuid: clxtwvwil000c09l6dliecvg8
 slug: bubble-sort
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719315673591/fe0cd1ae-3cc5-4686-8742-8510fdc2387c.png
 tags: python, dsa, bubble-sort
 
 ---
