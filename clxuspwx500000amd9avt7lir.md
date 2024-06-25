@@ -2,7 +2,7 @@
 title: "Quick Sort: A Beginner's Tutorial"
 datePublished: Tue Jun 25 2024 19:24:46 GMT+0000 (Coordinated Universal Time)
 cuid: clxuspwx500000amd9avt7lir
-slug: quick-sort-a-beginners-tutorial
+slug: quick-sort
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719343383431/9ca20456-c557-48f6-8d35-f6b6bd1ff79a.png
 tags: python, sorting, quick-sort, dsa
 
