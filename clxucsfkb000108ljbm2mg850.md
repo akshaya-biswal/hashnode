@@ -1,8 +1,8 @@
 ---
-title: "Merge Sort"
+title: "Merge Sort: A Complete Guide"
 datePublished: Tue Jun 25 2024 11:58:50 GMT+0000 (Coordinated Universal Time)
 cuid: clxucsfkb000108ljbm2mg850
-slug: merge-sort
+slug: merge-sort-a-complete-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719339531538/86d16007-5a02-4de5-8f5d-b799262e2984.png
 tags: python, dsa, merge-sort
 
