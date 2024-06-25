@@ -7,7 +7,9 @@ tags: python, dsa, bubble-sort
 
 ---
 
-Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+Bubble Sort is an algorithm that sorts an array from the highest value to the lowest value.
+
+The word 'Bubble' comes from how this algorithm works, it makes the highest values 'bubble up'.
 
 **Explanation**
 
