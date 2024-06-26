@@ -10,7 +10,7 @@ tags: python, sorting, dsa, counting-sort
 
 The Counting Sort algorithm sorts an array by counting how often each value appears.
 
-**How it works:**
+### How it works
 
 1. Create a new array to count the different values.
     
