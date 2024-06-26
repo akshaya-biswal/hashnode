@@ -8,7 +8,7 @@ tags: python, sorting, dsa, radix-sort
 
 ---
 
-The Radix Sort algorithm sorts an array by individual digits, starting with the least significant digit (the rightmost one).
+The Radix Sort algorithm sorts an array by each digit, starting with the rightmost digit, and usually works with positive numbers.
 
 ### How it works
 
