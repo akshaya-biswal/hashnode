@@ -2,7 +2,7 @@
 title: "Stack Data Structure"
 datePublished: Wed Jun 26 2024 12:57:02 GMT+0000 (Coordinated Universal Time)
 cuid: clxvub56700000akx3mqj26ug
-slug: stack-data-structure
+slug: stack
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719404988071/a46b021c-7058-4665-b207-634e3ca8dead.jpeg
 tags: python, data-structures, stack, dsa
 
