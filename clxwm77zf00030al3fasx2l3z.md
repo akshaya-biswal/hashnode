@@ -3,6 +3,7 @@ title: "Queues"
 datePublished: Thu Jun 27 2024 01:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: clxwm77zf00030al3fasx2l3z
 slug: queues
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719454060961/9c5c08c3-fbfa-435e-b9b9-668484edf36f.png
 tags: 2articles1week
 
 ---
