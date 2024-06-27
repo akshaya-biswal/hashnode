@@ -3,7 +3,7 @@ title: "Trees: Types and Terminologies"
 datePublished: Thu Jun 27 2024 17:20:54 GMT+0000 (Coordinated Universal Time)
 cuid: clxxj6bk6000209ld6r1u3pya
 slug: trees
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719508636367/39904782-a964-4765-a874-ce699d23253a.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719509064093/5661e2c4-3333-4ba5-a07f-04ed5cae2242.jpeg
 tags: python, data-structures, tree, dsa
 
 ---
