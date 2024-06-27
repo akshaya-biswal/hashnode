@@ -1,5 +1,5 @@
 ---
-title: "Trees: Types and Terminologies"
+title: "Tree Data Structure"
 datePublished: Thu Jun 27 2024 17:20:54 GMT+0000 (Coordinated Universal Time)
 cuid: clxxj6bk6000209ld6r1u3pya
 slug: trees
