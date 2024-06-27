@@ -10,11 +10,28 @@ tags: python, tree, dsa, bfs, dfs, treetraversals
 
 Traversing a tree means visiting every node in the tree.
 
+### Types
+
+* **Breadth First Search (BFS)** is when you visit all the nodes on one level before moving to the next level. This means you explore the tree sideways.
+    
+* **Depth First Search (DFS)** is when you go down the tree to the leaf nodes, exploring each branch from top to bottom.
+    
+    There are three types:
+    
+    * Preorder
+        
+    * Inorder
+        
+    * Postorder
+        
+
+### **DFS**
+
 **Inorder traversal**
 
-1. First, visit all the nodes in the left subtree
+1. [First,](https://www.w3schools.com/dsa/dsa_algo_binarytrees_preorder.php) [visit](https://www.w3schools.com/dsa/dsa_algo_binarytrees_inorder.php) [all the](https://www.w3schools.com/dsa/dsa_algo_binarytrees_preorder.php) [nod](https://www.w3schools.com/dsa/dsa_algo_binarytrees_inorder.php)[es in th](https://www.w3schools.com/dsa/dsa_algo_binarytrees_preorder.php)[e left s](https://www.w3schools.com/dsa/dsa_algo_binarytrees_inorder.php)ub[tree](https://www.w3schools.com/dsa/dsa_algo_binarytrees_postorder.php)
     
-2. Then the root node
+2. [Th](https://www.w3schools.com/dsa/dsa_algo_binarytrees_postorder.php)en the root node
     
 3. Visit all the nodes in the right subtree
     
