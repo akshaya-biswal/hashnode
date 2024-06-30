@@ -34,4 +34,51 @@ y = int(3)  # 3
 z = float(3)  # 3.0
 ```
 
+### Get the type
+
+```python
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+```
+
+### Assign Multiple Values
+
+```python
+x, y, z = "Orange", "Banana", "Cherry"
+print(x, y, z)
+
+p = q = r = "Go->home"
+print(p, q, r)
+
+laptop = ["Apple", "Microsoft", "Linux"]
+m, n, o = laptop
+print(m, n, o)
+```
+
+### Global Variables
+
+Variables that are created outside of a function are known as global variables
+
+```python
+feeling = "awesome"
+
+def fn():
+    print("Python is " + feeling)
+
+fn()
+```
+
+### The global Keyword
+
+```python
+def fn():
+    global x
+    x = "fantastic"
+
+fn()
+print("Python is " + x)
+```
+
 ## Data Types
