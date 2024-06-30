@@ -118,16 +118,13 @@ print("String Length", len(str))
 # Check String
 print("Hello" in str)  # True
 print("hello" in str)  # False
-```
 
-```python
-# String
-
-
-# Numeric
-x = 20
-x = 20.10
-x = 1j
+# Modify
+print(str.upper())
+print(str.lower())
+print(str.title())
+print(str.strip())
+print(str.split(" "))
 
 # Sequence
 x = ["apple", "banana", "cherry"]
@@ -135,21 +132,13 @@ x = ("apple", "banana", "cherry")
 x = range(6)
 print(x)
 
-# Mapping
-x = {"name": "John", "age": 36}
+# Format
+age = 36
+print(f"My name is John, I am {age}")
+print(f"My name is John, I am {age + 1}")
+print(f"My name is John, I am {age:.2f}")
 
-# Set
-x = {"apple", "banana", "cherry"}
-x = frozenset({"apple", "banana", "cherry"})
-
-# Boolean
-x = True
-
-# Binary
-x = b"Hello"
-x = bytearray(5)
-x = memoryview(bytes(5))
-
-# None
-x = None
+# Single and double quotes
+txt = 'We are the so-called "Vikings" from the north.'
+print(txt)
 ```
