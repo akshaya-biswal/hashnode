@@ -85,7 +85,7 @@ print("Python is " + x)
 
 Variables can store data of different types, and different types can do different things.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p>String</p></td><td colspan="1" rowspan="1"><p><code>str</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Numeric</p></td><td colspan="1" rowspan="1"><p><code>int</code>, <code>float</code>, <code>complex</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Sequence</p></td><td colspan="1" rowspan="1"><p><code>list</code>, <code>tuple</code>, <code>range</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Mapping</p></td><td colspan="1" rowspan="1"><p><code>dict</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Set</p></td><td colspan="1" rowspan="1"><p><code>set</code>, <code>frozenset</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Boolean</p></td><td colspan="1" rowspan="1"><p><code>bool</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Binary</p></td><td colspan="1" rowspan="1"><p><code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>None</p></td><td colspan="1" rowspan="1"><p><code>NoneType</code></p></td></tr></tbody></table>
+<table><tbody><tr><td colspan="1" rowspan="1"><p>Numeric</p></td><td colspan="1" rowspan="1"><p><code>int</code>, <code>float</code>, <code>complex</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>String</p></td><td colspan="1" rowspan="1"><p><code>str</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Sequence</p></td><td colspan="1" rowspan="1"><p><code>list</code>, <code>tuple</code>, <code>range</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Mapping</p></td><td colspan="1" rowspan="1"><p><code>dict</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Set</p></td><td colspan="1" rowspan="1"><p><code>set</code>, <code>frozenset</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Boolean</p></td><td colspan="1" rowspan="1"><p><code>bool</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Binary</p></td><td colspan="1" rowspan="1"><p><code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>None</p></td><td colspan="1" rowspan="1"><p><code>NoneType</code></p></td></tr></tbody></table>
 
 ### Numeric
 
@@ -142,3 +142,39 @@ print(f"My name is John, I am {age:.2f}")
 txt = 'We are the so-called "Vikings" from the north.'
 print(txt)
 ```
+
+### Booleans
+
+```python
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+```
+
+### Lists
+
+It is a collection which is ordered and changeable. Allows duplicate members.
+
+```python
+mylist = ["apple", "banana", "cherry"]
+```
+
+### Tuple
+
+* It is a collection which is ordered and unchangeable.
+    
+* Allows duplicate members.
+    
+
+### Set
+
+* It a collection which is unordered, unchangeable, and unindexed.
+    
+* No duplicate members.
+    
+
+### Dictionaries
+
+* It is a collection which is ordered and changeable.
+    
+* No duplicate members.
