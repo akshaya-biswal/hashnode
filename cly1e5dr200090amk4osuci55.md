@@ -82,3 +82,74 @@ print("Python is " + x)
 ```
 
 ## Data Types
+
+Variables can store data of different types, and different types can do different things.
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p>String</p></td><td colspan="1" rowspan="1"><p><code>str</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Numeric</p></td><td colspan="1" rowspan="1"><p><code>int</code>, <code>float</code>, <code>complex</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Sequence</p></td><td colspan="1" rowspan="1"><p><code>list</code>, <code>tuple</code>, <code>range</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Mapping</p></td><td colspan="1" rowspan="1"><p><code>dict</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Set</p></td><td colspan="1" rowspan="1"><p><code>set</code>, <code>frozenset</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Boolean</p></td><td colspan="1" rowspan="1"><p><code>bool</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Binary</p></td><td colspan="1" rowspan="1"><p><code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>None</p></td><td colspan="1" rowspan="1"><p><code>NoneType</code></p></td></tr></tbody></table>
+
+### Numeric
+
+```python
+x = 20
+x = 20.10
+x = 1j
+
+# Random
+import random
+print("random", random.randrange(1, 10))
+```
+
+### String
+
+```python
+# String
+str = "Hello World"
+
+# Strings are Arrays
+print(str[0])
+
+# Looping Through a String
+for i in str:
+    print(i)
+
+# String Length
+print("String Length", len(str))
+
+# Check String
+print("Hello" in str)  # True
+print("hello" in str)  # False
+```
+
+```python
+# String
+
+
+# Numeric
+x = 20
+x = 20.10
+x = 1j
+
+# Sequence
+x = ["apple", "banana", "cherry"]
+x = ("apple", "banana", "cherry")
+x = range(6)
+print(x)
+
+# Mapping
+x = {"name": "John", "age": 36}
+
+# Set
+x = {"apple", "banana", "cherry"}
+x = frozenset({"apple", "banana", "cherry"})
+
+# Boolean
+x = True
+
+# Binary
+x = b"Hello"
+x = bytearray(5)
+x = memoryview(bytes(5))
+
+# None
+x = None
+```
