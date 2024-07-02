@@ -85,7 +85,15 @@ print("Python is " + x)
 
 Variables can store data of different types, and different types can do different things.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p>Numeric</p></td><td colspan="1" rowspan="1"><p><code>int</code>, <code>float</code>, <code>complex</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>String</p></td><td colspan="1" rowspan="1"><p><code>str</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Sequence</p></td><td colspan="1" rowspan="1"><p><code>list</code>, <code>tuple</code>, <code>range</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Mapping</p></td><td colspan="1" rowspan="1"><p><code>dict</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Set</p></td><td colspan="1" rowspan="1"><p><code>set</code>, <code>frozenset</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Boolean</p></td><td colspan="1" rowspan="1"><p><code>bool</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Binary</p></td><td colspan="1" rowspan="1"><p><code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>None</p></td><td colspan="1" rowspan="1"><p><code>NoneType</code></p></td></tr></tbody></table>
+| Numeric | `int`, `float`, `complex` |
+| --- | --- |
+| String | `str` |
+| Sequence | `list`, `tuple`, `range` |
+| Mapping | `dict` |
+| Set | `set`, `frozenset` |
+| Boolean | `bool` |
+| Binary | `bytes`, `bytearray`, `memoryview` |
+| None | `NoneType` |
 
 ### Numeric
 
@@ -156,7 +164,98 @@ print(10 < 9)
 It is a collection which is ordered and changeable. Allows duplicate members.
 
 ```python
-mylist = ["apple", "banana", "cherry"]
+countries = ["India", "Sri Lanka", "Nepal"]
+
+print(len(countries))  # 3
+
+print(type(countries))  # list
+
+print(countries[0])  # India
+print(countries[-1])  # Nepal
+
+print(countries[0:2])  # ['India', 'Sri Lanka']
+print(countries[:1])  # ['India']
+print(countries[1:])  # ['Sri Lanka', 'Nepal']
+
+if "India" in countries:
+    print("Greatest!!!")
+
+# Change
+countries[2] = "Bhutan"
+print(countries)  # ['India', 'Sri Lanka', 'Bhutan']
+
+# Add
+countries.insert(3, "Nepal")  # At index
+print(countries)  # ['India', 'Sri Lanka', 'Bhutan', 'Nepal']
+
+countries.append("UK")  # At end
+print(countries)  # ['India', 'Sri Lanka', 'Bhutan', 'Nepal', 'UK']
+
+countries.append("USA")  # At end
+print(countries)  # ['India', 'Sri Lanka', 'Bhutan', 'Nepal', 'UK', 'USA']
+
+# Remove
+countries.remove("UK")
+print(countries)  # ['India', 'Sri Lanka', 'Bhutan', 'Nepal', 'USA']
+
+countries.pop(1)  # At specified index
+print(countries)  # ['India', 'Bhutan', 'Nepal', 'USA']
+
+countries.pop()  # At end
+print(countries)  # ['India', 'Bhutan', 'Nepal']
+
+countries.clear()
+print(countries)  # []
+
+# Loop - Values
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+
+# Loop - Index and Values
+for i in range(len(fruits)):
+    print(i, fruits[i])
+
+# Comprehension: create a new list based on the values of an existing list
+new_fruits1 = [x for x in fruits if "a" in x]
+new_fruits2 = [x for x in fruits if x != "apple"]
+new_fruits3 = [x.upper() for x in fruits]
+new_fruits4 = ["hello" for x in fruits]
+
+print(new_fruits1, new_fruits2, new_fruits3, new_fruits4)
+# ['apple', 'banana'] ['banana', 'cherry'] ['APPLE', 'BANANA', 'CHERRY'] ['hello', 'hello', 'hello']
+
+countries = ["India", "Sri Lanka", "Nepal"]
+countries.sort()
+print(countries)  # ['India', 'Nepal', 'Sri Lanka']
+
+countries.sort(reverse=True)
+print(countries)  # ['Sri Lanka', 'Nepal', 'India']
+
+# Copy
+languages = ["Python", "JavaScript", "HTML", "CSS"]
+languages_copy1 = languages.copy()
+languages_copy2 = list(languages)
+print(languages_copy1, languages_copy2)
+
+# Join
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)  # ['a', 'b', 'c', 1, 2, 3]
+
+# count: returns the number of elements with the specified value.
+x = list1.count("a")
+print(x)  # 1
+
+# index: returns the position at the first occurrence
+y = list1.index("a")
+print(y)  # 0
+
+# reverse
+fruits = ["apple", "banana", "cherry"]
+fruits.reverse()
 ```
 
 ### Tuple
