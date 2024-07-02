@@ -3,6 +3,7 @@ title: "Python: Complete Tutorial in One Go"
 datePublished: Sun Jun 30 2024 10:11:17 GMT+0000 (Coordinated Universal Time)
 cuid: cly1e5dr200090amk4osuci55
 slug: python
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719951673946/b1fa0431-2734-40cb-a025-f8a6d4c77ba5.png
 tags: python, programmer
 
 ---
