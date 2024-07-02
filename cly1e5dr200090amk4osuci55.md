@@ -265,11 +265,92 @@ fruits.reverse()
 * Allows duplicate members.
     
 
+```python
+days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+print(type(days))
+
+# Access
+print(days[0])  # Monday
+
+# Length
+print(len(days))  # 7
+
+# Range
+print(days[0:5])  # ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
+
+# Is exist
+if "January" in days:
+    print("Yes, 'January' is in the days tuple")
+else:
+    print("No, 'January' is't in the days tuple")
+
+
+# Change
+fruits = ("apple", "banana", "cherry")
+
+fruits_list = list(fruits)
+fruits_list[1] = "kiwi"
+fruits = tuple(fruits_list)
+
+print(fruits)  # ('apple', 'kiwi', 'cherry')
+
+# Remove
+fruits = ("apple", "banana", "cherry")
+
+fruits_list = list(fruits)
+fruits_list.remove("cherry")
+fruits = tuple(fruits_list)
+
+print(fruits)  # ('apple', 'banana')
+
+# Delete
+fruits = ("apple", "banana", "cherry")
+del fruits
+# print(fruits) # error, it's no longer exists
+
+
+# Unpacking
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+
+# Loop - items
+fruits = ("apple", "banana", "cherry")
+for x in fruits:
+    print(x)
+
+# Loop - items and index
+for i in range(len(fruits)):
+    print(fruits[i])
+
+# Join
+tuple1 = ("a", "b", "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)  # ('a', 'b', 'c', 1, 2, 3)
+
+# Count
+num = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = num.count(5)
+print(x)  # 2
+
+# Index
+num = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = num.index(5)
+print(x)  # 5
+```
+
 ### Set
 
 * It a collection which is unordered, unchangeable, and unindexed.
     
+* Sets are unordered, so you cannot be sure in which order the items will appear.
+    
+* Set items are unchangeable, but you can remove items and add new items.
+    
 * No duplicate members.
+    
+* The values `True` and `1` are considered the same value in sets, and are treated as duplicates.
     
 
 ### Dictionaries
