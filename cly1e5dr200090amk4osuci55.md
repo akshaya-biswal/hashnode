@@ -487,5 +487,3 @@ cars = {
     "car_2": {"brand": "Ford", "model": "Mustang", "year": 1964},
 }
 ```
-
-*
