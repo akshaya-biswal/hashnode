@@ -162,7 +162,10 @@ print(10 < 9)
 
 ### Lists
 
-It is a collection which is ordered and changeable. Allows duplicate members.
+* Ordered and changeable.
+    
+* Allows duplicate members.
+    
 
 ```python
 countries = ["India", "Sri Lanka", "Nepal"]
@@ -261,9 +264,9 @@ fruits.reverse()
 
 ### Tuple
 
-* It is a collection which is ordered and unchangeable.
+* Ordered and unchangeable
     
-* Allows duplicate members.
+* Allows duplicate members
     
 
 ```python
@@ -343,19 +346,146 @@ print(x)  # 5
 
 ### Set
 
-* It a collection which is unordered, unchangeable, and unindexed.
+* Unordered, unchangeable, and unindexed
     
-* Sets are unordered, so you cannot be sure in which order the items will appear.
+* No duplicate members
     
-* Set items are unchangeable, but you can remove items and add new items.
+* Unordered, so we cannot be sure in which order the items will appear
     
-* No duplicate members.
+* Unchangeable, but we can remove items and add new items
     
 * The values `True` and `1` are considered the same value in sets, and are treated as duplicates.
     
 
+```python
+numbers = {0, 1, 2, 4, 6, 8, 10, True, False}
+men = {"Smith", "McArthur", "Wilson", "Johnson"}
+print(type(numbers))
+
+print(numbers)  # {0, 1, 2, 4, 6, 8, 10}
+print(men)  # {0, 'Smith', 'McArthur', 'Johansson', 'Wilson'}
+
+# Length
+print(len(numbers))  # 7
+
+# Access: cannot access items by referring to an index or a key.
+for x in men:
+    print(x)
+
+# Is exist
+print("John" in men)  # False
+print("Johnson" in men)  # True
+
+# add(): item
+men.add("Akshaya")
+print(men)
+
+# update(): another set
+men_new = {"Prabhakar", "Sunil", "Kunal"}
+men.update(men_new)
+print(men)
+
+# remove(): If the item to remove does not exist, will raise an error
+men.remove("Kunal")
+print(men)
+
+# discard(): If the item to remove does not exist, will NOT raise an error
+men.discard("Alex")
+print(men)
+
+# pop(): Remove a random item by using the
+men.pop()
+print(men)
+
+# clear()
+men.clear()
+
+# del
+del men
+
+# Join Methods:
+# union() || |: joins all items from both sets, update() will do the same
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+set3 = set1.union(set2)
+print(set3)  # {1, 'a', 2, 3, 'c', 'b'}
+
+# intersection() || &: keeps only the duplicates
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+set3 = set1.intersection(set2)
+print(set3)  # {'apple'}
+
+# difference() || -: keeps the items from the first set that are not in the other set(s)
+set3 = set1.difference(set2)
+print(set3)  # {'cherry', 'banana'}
+
+# symmetric_difference(): keeps all items except the duplicates
+set3 = set1.symmetric_difference(set2)
+print(set3)  # {'microsoft', 'google', 'cherry', 'banana'}
+```
+
 ### Dictionaries
 
-* It is a collection which is ordered and changeable.
+* Ordered and changeable
     
-* No duplicate members.
+* No duplicate members
+    
+
+```python
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+
+print(type(car))  # dict
+print(len(car))  # 3
+
+# Access
+print(car["model"])  # Mustang
+print(car.get("model"))  # Mustang
+
+keys = car.keys()
+print(keys)  # dict_keys(['brand', 'model', 'year'])
+
+values = car.values()
+print(values)  # dict_values(['Ford', 'Mustang', 1964])
+
+# return each item, as tuples in a list
+items = car.items()
+print(items)  # dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+
+if "model" in car:
+    print("Yes, 'model' is one of the keys")
+
+# Update
+car.update({"year": 2020})
+car["year"] = 2024
+
+# Add
+car["color"] = "black"
+car["engine"] = "5.0 L V8"
+
+# Remove
+del car["color"]
+car.pop("engine")
+
+# Remove - Dictionary
+del car
+
+# Loop
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+for x in car:
+    print(x, car[x])
+
+# copy()
+car_copy = car.copy()
+car_copy2 = dict(car)
+
+print(car_copy, car_copy2)
+
+# Nested Dictionaries
+cars = {
+    "car_1": {"brand": "Ford", "model": "Mustang", "year": 1964},
+    "car_2": {"brand": "Ford", "model": "Mustang", "year": 1964},
+}
+```
+
+*
