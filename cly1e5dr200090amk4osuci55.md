@@ -487,3 +487,130 @@ cars = {
     "car_2": {"brand": "Ford", "model": "Mustang", "year": 1964},
 }
 ```
+
+## Conditions
+
+### If Else
+
+```python
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+```
+
+```python
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+```
+
+```python
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+```
+
+```python
+# AND
+a = 200
+b = 33
+c = 500
+if c > a and c > b:
+    print("c is greater")
+```
+
+```python
+# OR
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+```
+
+```python
+# NOT
+a = 33
+b = 200
+if not a > b:
+  print("a is NOT greater than b")
+```
+
+```python
+# pass: The pass statement is used as a placeholder for future code
+
+def example2(): # This would not produce a error
+    pass
+
+def example(): #This would produce a error if we left it.
+```
+
+### While
+
+Execute a set of statements as long as a condition is true
+
+`break` statement can stop the loop even if the while condition is true
+
+`continue` statement can stop the current iteration, and continue with the next
+
+```python
+# while
+i = 1
+while i < 5:
+    print(i)  # 1 2 3 4
+    i += 1
+
+# break
+i = 1
+while i < 5:
+    print(i)  # 1 2 3
+    if i == 3:
+        break
+    i += 1
+
+# continue
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)  # 1 2 4 5 6
+```
+
+### For
+
+Execute a set of statements, once for each item in a list, tuple, set etc.
+
+```python
+# List
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+
+for x in range(len(fruits)):
+    print(x, fruits[x])
+
+
+# String
+for x in fruits[0]:
+    print(x)
+
+# break
+for x in fruits:
+    if x == "banana":
+        break
+    print(x)  # apple
+
+# continue
+for x in fruits:
+    if x == "banana":
+        continue  # apple cherry
+    print(x)
+```
