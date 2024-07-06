@@ -2,25 +2,25 @@
 title: "Queues"
 datePublished: Thu Jun 27 2024 01:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: clxwm77zf00030al3fasx2l3z
-slug: queues
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719454060961/9c5c08c3-fbfa-435e-b9b9-668484edf36f.png
+slug: queue
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720292938150/7081fda1-3ca5-476a-947b-58fe2e31d042.jpeg
 tags: 2articles1week
 
 ---
 
-Queue follows the **First In First Out (FIFO)** rule - the item that goes in first is the item that comes out first.
+A **queue** is a data structure that follows the First In, First Out (FIFO) principle. The first element added is the first one to be removed.
 
 Think of a queue as people standing in line in a supermarket.
 
 ### Operations
 
-* **Enqueue:** Adds a new element
+* **Enqueue**: Add an element to the end of the queue.
     
-* **Dequeue:** Removes and returns the first (front) element
+* **Dequeue**: Remove the element from the front of the queue.
     
-* **Peek:** Returns the first element
+* **Front**: Get the value of the front element without removing it.
     
-* **isEmpty:** Checks if it is empty
+* **isEmpty**: Check if the queue is empty.
     
 * **Size:** Finds the number of elements
     
@@ -32,44 +32,39 @@ class Queue:
     def __init__(self):
         self.queue = []
 
-    def enqueue(self, element):
-        self.queue.append(element)
+    def enqueue(self, item):
+        self.queue.append(item)
 
     def dequeue(self):
-        if self.isEmpty():
-            return "Queue is empty"
-        return self.queue.pop(0)
+        if not self.is_empty():
+            return self.queue.pop(0)
+        else:
+            raise IndexError("dequeue from empty queue")
 
-    def peek(self):
-        if self.isEmpty():
-            return "Queue is empty"
-        return self.queue[0]
+    def front(self):
+        if not self.is_empty():
+            return self.queue[0]
+        else:
+            raise IndexError("front from empty queue")
 
-    def isEmpty(self):
+    def is_empty(self):
         return len(self.queue) == 0
 
     def size(self):
         return len(self.queue)
 
+    def __str__(self):
+        return str(self.queue)
 
-# Create a queue
-movie_line = Queue()
 
-# Add
-movie_line.enqueue("A")
-movie_line.enqueue("B")
-movie_line.enqueue("C")
-print("Queue: ", movie_line.queue)
-
-# Remove
-print("Dequeue: ", movie_line.dequeue())
-
-# Peek the left most item
-print("Peek: ", movie_line.peek())
-
-# Check isEmpty
-print("isEmpty: ", movie_line.isEmpty())
-
-# Size
-print("Size: ", movie_line.size())
+# Example usage
+q = Queue()
+q.enqueue(1)
+q.enqueue(2)
+q.enqueue(3)
+print(q)  # Output: [1, 2, 3]
+print(q.dequeue())  # Output: 1
+print(q.front())  # Output: 2
+print(q.is_empty())  # Output: False
+print(q.size())  # Output: 2
 ```
