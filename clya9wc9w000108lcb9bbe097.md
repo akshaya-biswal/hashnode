@@ -2,7 +2,7 @@
 title: "Leetcode 2239 - Find Closest Number to Zero"
 datePublished: Sat Jul 06 2024 15:22:12 GMT+0000 (Coordinated Universal Time)
 cuid: clya9wc9w000108lcb9bbe097
-slug: leetcode-2239-find-closest-number-to-zero
+slug: leetcode-2239
 tags: python, python3, leetcode, codenewbies
 
 ---
