@@ -3,7 +3,7 @@ title: "Stacks"
 datePublished: Wed Jun 26 2024 12:57:02 GMT+0000 (Coordinated Universal Time)
 cuid: clxvub56700000akx3mqj26ug
 slug: stack
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719404988071/a46b021c-7058-4665-b207-634e3ca8dead.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720292474853/718c4293-3a2d-46c8-a39e-6118954f90f4.jpeg
 tags: python, data-structures, stack, dsa
 
 ---
@@ -14,13 +14,13 @@ Think of a stack like a pile of pancakes.
 
 ### Operations
 
-* **Push:** Adds a new element
+* **Push**: Add an element to the top.
     
-* **Pop:** Removes and returns the top element
+* **Pop**: Remove the element from the top.
     
-* **Peek:** Returns the top element
+* **Peek/Top**: Get the value of the top element without removing it.
     
-* **isEmpty:** Checks if it is empty
+* **isEmpty**: Check if the stack is empty.
     
 * **Size:** Finds the number of elements
     
@@ -32,44 +32,39 @@ class Stack:
     def __init__(self):
         self.stack = []
 
-    def push(self, element):
-        self.stack.append(element)
+    def push(self, item):
+        self.stack.append(item)
 
     def pop(self):
-        if self.isEmpty():
-            return "Stack is empty"
-        return self.stack.pop()
+        if not self.is_empty():
+            return self.stack.pop()
+        else:
+            raise IndexError("pop from empty stack")
 
     def peek(self):
-        if self.isEmpty():
-            return "Stack is empty"
-        return self.stack[-1]
+        if not self.is_empty():
+            return self.stack[-1]
+        else:
+            raise IndexError("peek from empty stack")
 
-    def isEmpty(self):
+    def is_empty(self):
         return len(self.stack) == 0
 
     def size(self):
         return len(self.stack)
 
+    def __str__(self):
+        return str(self.stack)
 
-# Create a stack
-pancake = Stack()
 
-# Add
-pancake.push("A")
-pancake.push("B")
-pancake.push("C")
-print("Stack: ", pancake.stack)
-
-# Remove
-print("Pop: ", pancake.pop())
-
-# Peek the top item
-print("Peek: ", pancake.peek())
-
-# Is Empty
-print("isEmpty: ", pancake.isEmpty())
-
-# Size
-print("Size: ", pancake.size())
+# Example usage
+s = Stack()
+s.push(1)
+s.push(2)
+s.push(3)
+print(s)  # Output: [1, 2, 3]
+print(s.pop())  # Output: 3
+print(s.peek())  # Output: 2
+print(s.is_empty())  # Output: False
+print(s.size())  # Output: 2
 ```
