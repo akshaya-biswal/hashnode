@@ -3,7 +3,7 @@ title: "Data Structure"
 datePublished: Sat Jul 06 2024 15:52:18 GMT+0000 (Coordinated Universal Time)
 cuid: clyaaz1pf00000ajthknq2oi6
 slug: data-structure
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720288924819/a0d1c37b-6d0b-4153-bf90-7f34803957f5.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720293032115/295c2ab3-f23c-413c-84db-c6ffe13fab04.jpeg
 tags: python, data-structures, python3, coding
 
 ---
