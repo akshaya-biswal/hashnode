@@ -34,6 +34,10 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 **Tries**
 
+### Python Related - Data Structures
+
+[**List**](https://akshaya-biswal.hashnode.dev/list)
+
 ### Coming Soon
 
 Stay tuned for more insights! Exciting new content on data structures will be added soon.
