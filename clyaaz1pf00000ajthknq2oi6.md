@@ -12,9 +12,9 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 **Array**
 
-[**Stacks**](https://akshaya-biswal.hashnode.dev/stack)
+[**Stack**](https://akshaya-biswal.hashnode.dev/stack)
 
-[**Queues**](https://akshaya-biswal.hashnode.dev/queues)
+[**Queue**](https://akshaya-biswal.hashnode.dev/queues)
 
 [**Single Linked List**](https://akshaya-biswal.hashnode.dev/sll)
 
@@ -24,13 +24,13 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 [**Tree**](https://akshaya-biswal.hashnode.dev/trees)
 
-[**Binary trees**](https://akshaya-biswal.hashnode.dev/binary-tree)
+[**Binary Tree**](https://akshaya-biswal.hashnode.dev/binary-tree)
 
 **Binary search trees**
 
-[**Tree traversals**](https://akshaya-biswal.hashnode.dev/tree-traversal)
+[**Tree Traversals**](https://akshaya-biswal.hashnode.dev/tree-traversal)
 
-**Hash Tables**
+[**Hash Table**](https://akshaya-biswal.hashnode.dev/hash-table)
 
 **Hash functions and collision resolution**
 
