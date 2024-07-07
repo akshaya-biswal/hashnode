@@ -154,3 +154,18 @@ print(sll.length())  # 3
 print(sll.search(3))  # True
 print(sll.search("B"))  # False
 ```
+
+### Advantages
+
+* **Dynamic size**: Linked lists can grow or shrink in size dynamically.
+    
+* **Ease of insertion/deletion**: Adding or removing nodes is straightforward and efficient, especially at the beginning of the list.
+    
+
+### Disadvantages
+
+* **Memory overhead**: Extra memory is required for storing pointers.
+    
+* **Sequential access**: Linked lists do not allow random access. Elements must be accessed sequentially from the head.
+    
+* **Cache locality**: Nodes in a linked list are not stored contiguously in memory, which can lead to poor cache performance.
