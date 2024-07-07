@@ -32,8 +32,6 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 [**Hash Table**](https://akshaya-biswal.hashnode.dev/hash-table)
 
-**Hash functions and collision resolution**
-
 **Tries**
 
 ### Python Related - Data Structures
