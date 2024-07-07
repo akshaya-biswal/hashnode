@@ -16,9 +16,11 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 [**Queues**](https://akshaya-biswal.hashnode.dev/queues)
 
-**Linked Lists Doubly and Circular linked lists**
+[**Single Linked List**](https://akshaya-biswal.hashnode.dev/sll)
 
-**Operations on linked lists**
+**Doubly Linked Lists**
+
+**Circular linked lists**
 
 [**Tree**](https://akshaya-biswal.hashnode.dev/trees)
 
