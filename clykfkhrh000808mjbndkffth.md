@@ -3,7 +3,7 @@ title: "Leetcode - 345. Reverse Vowels of a String"
 datePublished: Sat Jul 13 2024 17:58:39 GMT+0000 (Coordinated Universal Time)
 cuid: clykfkhrh000808mjbndkffth
 slug: leetcode-345-reverse-vowels-of-a-string
-tags: javascript, string, leetcode, two-pointers, twopointerstechnique
+tags: javascript, string, leetcode, twopointerstechnique
 
 ---
 
