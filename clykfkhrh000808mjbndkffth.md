@@ -43,21 +43,23 @@ console.log(reverseVowels("hello")); // holle
 console.log(reverseVowels("leetcode")); // leotcede
 ```
 
-### Step-by-Step Explanation
+### Explanation:
 
-* we convert the input string into an array of characters. This makes it easier to swap characters.
+1. **Vowel Set**: Create a set containing all the vowels (both uppercase and lowercase).
     
-* We initialize two pointers, `left` at the beginning of the array and `right` at the end.
+2. **String to Array**: Convert the string to an array of characters for easier manipulation.
     
-* We use a `while` loop to iterate as long as `left` is less than `right`.
+3. **Two Pointers**: Initialize two pointers, `left` at the start of the array and `right` at the end.
     
-* Inside the loop, we first check if the character at the `left` pointer is not a vowel. If it's not, we move the `left` pointer to the right.
+4. **Pointer Movement**:
     
-* Similarly, we check if the character at the `right` pointer is not a vowel. If it's not, we move the `right` pointer to the left.
-    
-* If both characters at `left` and `right` pointers are vowels, we swap them. Then, we move both pointers towards the center.
-    
-* After the loop finishes, we convert the array back to a string and return it.
+    * If the character at the `left` pointer is not a vowel, move the `left` pointer to the right.
+        
+    * If the character at the `right` pointer is not a vowel, move the `right` pointer to the left.
+        
+    * If both pointers point to vowels, swap the characters and move both pointers towards the center.
+        
+5. **Join Array to String**: After processing, join the array back into a string and return it.
     
 
 ### Here’s a simple diagram to visualize the process:
