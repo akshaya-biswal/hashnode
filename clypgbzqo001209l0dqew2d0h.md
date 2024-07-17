@@ -3,7 +3,7 @@ title: "Leetcode 1750: Minimum Length of String After Deleting Similar Ends"
 datePublished: Wed Jul 17 2024 06:18:53 GMT+0000 (Coordinated Universal Time)
 cuid: clypgbzqo001209l0dqew2d0h
 slug: leetcode-1750-minimum-length-of-string-after-deleting-similar-ends
-tags: 2articles1week
+tags: javascript, leetcode, 2articles1week, two-pointers
 
 ---
 
