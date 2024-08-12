@@ -3,7 +3,7 @@ title: "Stack in JS"
 datePublished: Mon Aug 12 2024 10:29:47 GMT+0000 (Coordinated Universal Time)
 cuid: clzquqsn3000009lg2e76hy84
 slug: stack-in-js
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723458519653/c4a29678-182b-43fc-9567-59ad064497c7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/1_Aojfv58_s/upload/d006feb4296e83513ac90903d72a6ed6.jpeg
 tags: algorithms, data-structures, stack, dsa
 
 ---
