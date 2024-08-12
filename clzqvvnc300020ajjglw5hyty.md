@@ -3,7 +3,7 @@ title: "Insertion Sort"
 datePublished: Mon Aug 12 2024 11:01:33 GMT+0000 (Coordinated Universal Time)
 cuid: clzqvvnc300020ajjglw5hyty
 slug: insertion-sort
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723460448368/85a2f06e-fea6-4cd9-be04-02597457b761.png
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GZ9aJw1DMBA/upload/07b7ddcbb6d1b6fbeb167b33ba81cb04.jpeg
 tags: algorithms, javascript, insertion-sort, sorting, dsa
 
 ---
