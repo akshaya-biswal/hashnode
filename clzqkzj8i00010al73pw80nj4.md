@@ -3,6 +3,7 @@ title: "Linked List"
 datePublished: Mon Aug 12 2024 05:56:38 GMT+0000 (Coordinated Universal Time)
 cuid: clzqkzj8i00010al73pw80nj4
 slug: linked-list
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723442427954/f9d4fa1c-4a6c-4664-ac23-657a18d30c36.png
 tags: javascript, data-structures, linkedlists
 
 ---
