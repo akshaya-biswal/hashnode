@@ -3,6 +3,7 @@ title: "Bucket Sort"
 datePublished: Mon Aug 12 2024 11:43:54 GMT+0000 (Coordinated Universal Time)
 cuid: clzqxe4bc000009jseil72yyi
 slug: bucket-sort
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/gBaXljNA6HI/upload/681ec3b87115e893280ad18360838348.jpeg
 tags: javascript, sorting, dsa, bucket-sort
 
 ---
