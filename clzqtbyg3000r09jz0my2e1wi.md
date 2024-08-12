@@ -3,6 +3,7 @@ title: "Doubly Linked List"
 datePublished: Mon Aug 12 2024 09:50:15 GMT+0000 (Coordinated Universal Time)
 cuid: clzqtbyg3000r09jz0my2e1wi
 slug: doubly-linked-list
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723458682788/91707d46-7ecb-49f4-9c08-eaee7b069aad.png
 tags: algorithms, javascript, dsa, linkedlists
 
 ---
