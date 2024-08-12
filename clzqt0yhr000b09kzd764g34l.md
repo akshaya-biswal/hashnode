@@ -8,9 +8,13 @@ tags: algorithms, javascript, data-structures, dsa, linkedlists
 
 ---
 
-* Each node contains data and a reference to the next node.
+### Introduction
+
+* A **Linked List** is a linear data structure
     
 
+* Each node contains data and a reference to the next node.
+    
 * It allows traversal in one direction, from the head (first node) to the tail (last node)
     
 
