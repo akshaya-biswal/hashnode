@@ -34,4 +34,4 @@ tags: algorithms, javascript, dsa, datastructure
     
 * [Merge Sort](https://akshaya-biswal.hashnode.dev/merge-sort)
     
-* [**Quick Sort**](https://akshaya-biswal.hashnode.dev/quick-sort)
+* [Quick Sort](https://akshaya-biswal.hashnode.dev/quick-sort)
