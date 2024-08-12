@@ -7,7 +7,7 @@ tags: algorithms, javascript, dsa, datastructure
 
 ---
 
-## Data Structures
+### Data Structures
 
 [Stack](https://akshaya-biswal.hashnode.dev/stack-in-js)
 
