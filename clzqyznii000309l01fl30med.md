@@ -3,6 +3,7 @@ title: "Quick Sort"
 datePublished: Mon Aug 12 2024 12:28:38 GMT+0000 (Coordinated Universal Time)
 cuid: clzqyznii000309l01fl30med
 slug: quick-sort
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/BwXsi8tcXlk/upload/7748d9744c6f426ce070119cb190ef1e.jpeg
 tags: algorithms, javascript, sorting, quick-sort, dsa, datastructure
 
 ---
