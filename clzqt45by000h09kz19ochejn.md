@@ -9,10 +9,12 @@ tags: algorithms, javascript, dsa, datastructure
 
 ## Data Structures
 
-### Linked List
+[Stack](https://akshaya-biswal.hashnode.dev/stack-in-js)
 
-A **Linked List** is a linear data structure where each element, called a node, contains a **data** part and a **reference** to the next node in the sequence.
+[Queue](https://akshaya-biswal.hashnode.dev/queue-in-js)
 
-[**Singly Linked List**](https://akshaya-biswal.hashnode.dev/singly-linked-list)
+[Singly Linked List](https://akshaya-biswal.hashnode.dev/singly-linked-list)
 
 [Doubly Linked List](https://akshaya-biswal.hashnode.dev/doubly-linked-list)
+
+### Algorithms
