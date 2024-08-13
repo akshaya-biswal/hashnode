@@ -3,7 +3,7 @@ title: "Linear Search"
 datePublished: Tue Aug 13 2024 18:20:30 GMT+0000 (Coordinated Universal Time)
 cuid: clzsr00ie00010al6hdy0d02x
 slug: linear-search
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723575266716/f6a98728-eb7b-47a2-a843-598cbb3049b7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723575345005/716ae05d-9dd4-4bab-b403-d3d48a109625.png
 tags: search, algorithms, javascript, dsa, datastructure
 
 ---
