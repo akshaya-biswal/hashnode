@@ -35,3 +35,10 @@ tags: algorithms, javascript, dsa, datastructure
 * [Merge Sort](https://akshaya-biswal.hashnode.dev/merge-sort)
     
 * [Quick Sort](https://akshaya-biswal.hashnode.dev/quick-sort)
+    
+
+**Searching**
+
+* [**Linear Search**](https://akshaya-biswal.hashnode.dev/linear-search)
+    
+* [Binary Search](https://akshaya-biswal.hashnode.dev/binary-search)
