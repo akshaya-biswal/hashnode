@@ -3,7 +3,7 @@ title: "Binary Search"
 datePublished: Tue Aug 13 2024 18:27:47 GMT+0000 (Coordinated Universal Time)
 cuid: clzsr9dcs000709mkhlqjgw4b
 slug: binary-search
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723575290733/0c7d5448-d560-4170-b276-3e3efae27889.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723575389194/7a1f025a-69ad-4f34-ae41-c8fda9e83bfa.png
 tags: algorithms, javascript, dsa, binary-search-algorithm, datast
 
 ---
