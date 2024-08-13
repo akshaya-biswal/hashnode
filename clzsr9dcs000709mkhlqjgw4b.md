@@ -7,6 +7,8 @@ tags: algorithms, javascript, dsa, binary-search-algorithm, datast
 
 ---
 
+### Introduction
+
 * Binary search is an efficient searching algorithm used to find the position of a target element in a **sorted** list or array.
     
 * It works by repeatedly dividing the search interval in half and comparing the target element with the middle element of the current interval.
