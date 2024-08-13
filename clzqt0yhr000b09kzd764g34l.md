@@ -3,7 +3,6 @@ title: "Singly Linked List"
 datePublished: Mon Aug 12 2024 09:41:41 GMT+0000 (Coordinated Universal Time)
 cuid: clzqt0yhr000b09kzd764g34l
 slug: singly-linked-list
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723455614766/173ad87c-099f-46ba-a75d-18cac97bdca8.webp
 tags: algorithms, javascript, data-structures, dsa, linkedlists
 
 ---
