@@ -18,6 +18,8 @@ tags: algorithms, javascript, dsa, datastructure
 
 [Doubly Linked List](https://akshaya-biswal.hashnode.dev/doubly-linked-list)
 
+[Hash Table](https://akshaya-biswal.hashnode.dev/hash-table)
+
 ### Algorithms
 
 **Sorting**
