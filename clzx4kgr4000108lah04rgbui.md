@@ -3,6 +3,7 @@ title: "Hash Table"
 datePublished: Fri Aug 16 2024 19:51:24 GMT+0000 (Coordinated Universal Time)
 cuid: clzx4kgr4000108lah04rgbui
 slug: hash-table
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723838573901/4d52d8fb-680e-4646-8b0e-66daa6871945.png
 tags: algorithms, data-structures, dsa, hash-table
 
 ---
