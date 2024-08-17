@@ -22,6 +22,8 @@ A **Priority Queue** is a type of data structure where each element is associate
 * **isEmpty()**: Checks if the queue is empty.
     
 
+### Code
+
 ```javascript
 class PriorityQueue {
   constructor() {
