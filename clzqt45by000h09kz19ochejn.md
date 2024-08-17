@@ -20,6 +20,8 @@ tags: algorithms, javascript, dsa, datastructure
 
 [Hash Table](https://akshaya-biswal.hashnode.dev/hash-table)
 
+[Heap](https://akshaya-biswal.hashnode.dev/heap-ds)
+
 ### Algorithms
 
 **Sorting**
