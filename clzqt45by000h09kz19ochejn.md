@@ -22,6 +22,8 @@ tags: algorithms, javascript, dsa, datastructure
 
 [Heap](https://akshaya-biswal.hashnode.dev/heap-ds)
 
+[Priority Queue](https://akshaya-biswal.hashnode.dev/priority-queue)
+
 ### Algorithms
 
 **Sorting**
