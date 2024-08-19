@@ -7,6 +7,8 @@ tags: algorithms, javascript, dsa, binary-search-tree, datastructure
 
 ---
 
+### Introduction
+
 A Binary Search Tree (BST) is a data structure that maintains sorted data in a way that allows for efficient insertion, deletion, and lookup operations. Each node in a BST has the following properties:
 
 1. **Node**: Contains a value (data).
