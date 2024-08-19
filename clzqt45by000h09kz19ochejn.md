@@ -24,6 +24,11 @@ tags: algorithms, javascript, dsa, datastructure
 
 [Priority Queue](https://akshaya-biswal.hashnode.dev/priority-queue)
 
+Tree
+
+* [Binary Search Tree](https://akshaya-biswal.hashnode.dev/binary-search-tree)
+    
+
 ### Algorithms
 
 **Sorting**
