@@ -28,6 +28,8 @@ Tree
 
 * [Binary Search Tree](https://akshaya-biswal.hashnode.dev/binary-search-tree)
     
+* [AVL Trees](https://akshaya-biswal.hashnode.dev/avl-trees)
+    
 
 ### Algorithms
 
@@ -39,7 +41,7 @@ Tree
     
 * [Counting Sort](https://akshaya-biswal.hashnode.dev/counting-sort)
     
-* [**Selection Sort**](https://akshaya-biswal.hashnode.dev/selection-sort)
+* [Selection Sort](https://akshaya-biswal.hashnode.dev/selection-sort)
     
 * [Bucket Sort](https://akshaya-biswal.hashnode.dev/bucket-sort)
     
@@ -50,6 +52,6 @@ Tree
 
 **Searching**
 
-* [**Linear Search**](https://akshaya-biswal.hashnode.dev/linear-search)
+* [Linear Search](https://akshaya-biswal.hashnode.dev/linear-search)
     
 * [Binary Search](https://akshaya-biswal.hashnode.dev/binary-search)
