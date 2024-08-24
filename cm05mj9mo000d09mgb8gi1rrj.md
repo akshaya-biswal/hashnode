@@ -3,6 +3,7 @@ title: "AVL Tree"
 datePublished: Thu Aug 22 2024 18:36:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm05mj9mo000d09mgb8gi1rrj
 slug: avl-tree
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724523753434/da1f50f4-2039-4ba7-bcc8-9ef134cdde6e.png
 tags: algorithms, javascript, data-structures, dsa, avl-trees
 
 ---
