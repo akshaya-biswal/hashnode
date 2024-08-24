@@ -3,6 +3,7 @@ title: "Red Black Tree"
 datePublished: Sat Aug 24 2024 18:08:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm08gesty000a09jw46ng2u4n
 slug: red-black-tree
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724524029552/c75769d1-5f16-4628-b851-53c1b01e92ac.png
 tags: algorithms, javascript, data-structures, dsa, red-black-tree
 
 ---
