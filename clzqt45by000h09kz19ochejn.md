@@ -28,7 +28,9 @@ Tree
 
 * [Binary Search Tree](https://akshaya-biswal.hashnode.dev/binary-search-tree)
     
-* [AVL Trees](https://akshaya-biswal.hashnode.dev/avl-trees)
+* [AVL Tree](https://akshaya-biswal.hashnode.dev/avl-tree)
+    
+* [Red Black Tree](https://akshaya-biswal.hashnode.dev/red-black-tree)
     
 
 ### Algorithms
