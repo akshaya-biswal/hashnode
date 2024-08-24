@@ -1,8 +1,8 @@
 ---
-title: "AVL Trees"
+title: "AVL Tree"
 datePublished: Thu Aug 22 2024 18:36:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm05mj9mo000d09mgb8gi1rrj
-slug: avl-trees
+slug: avl-tree
 tags: algorithms, javascript, data-structures, dsa, avl-trees
 
 ---
