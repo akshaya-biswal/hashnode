@@ -35,6 +35,11 @@ Tree
 
 ### Algorithms
 
+**Array**
+
+* [Cartesian Product](https://akshaya-biswal.hashnode.dev/cartesian-product-of-two-sets)
+    
+
 **Sorting**
 
 * [Bubble Sort](https://akshaya-biswal.hashnode.dev/bubble-sort)
@@ -57,3 +62,8 @@ Tree
 * [Linear Search](https://akshaya-biswal.hashnode.dev/linear-search)
     
 * [Binary Search](https://akshaya-biswal.hashnode.dev/binary-search)
+    
+
+**Sliding Window**
+
+* [Best Time to Buy and Sell Stock](https://akshaya-biswal.hashnode.dev/best-time-to-buy-and-sell-stock-leetcode121)
